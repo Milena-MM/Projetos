@@ -161,6 +161,11 @@ font-family: 'Kalam', cursive;
 font-size: 20px;
 }
 
+#rodape h2{
+    background-color: Thistle;
+    color:DarkMagenta;
+}
+
 #icones i, a {
     background-color: Thistle;
     color:DarkMagenta;
@@ -175,7 +180,3 @@ font-size: 20px;
     
 }
 
-#rodape h1{
-    width: 80px;
-    background-color: Thistle;
-}
