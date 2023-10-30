@@ -1,0 +1,181 @@
+*{
+background-color:LavenderBlush;
+list-style: none; 
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+header{
+width: 100%;
+}
+
+ #cabecalho ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: Thistle;
+    height: 45px;
+    font-size: 2em;
+   
+ }
+
+ #cabecalho ul li{
+background-color: Thistle;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: 'Nunito', sans-serif;
+color: indigo;
+}
+
+ #ola{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 45px 25px;
+    background-color: plum;
+    padding: 20px 20px;
+    border-radius: 30px;
+    font-family: 'Bad Script', cursive;
+    box-shadow: 5px 5px 5px #b179b5;
+ }
+
+ #ola p, h1, img{
+    background-color:plum;
+ }
+
+ #ola p{
+    width: 600px;
+    margin-left: 55px;
+    background-color: plum;
+ }
+#ola h1{
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+    font-weight: bold;
+   
+}
+
+.blocosobre{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 45px 25px;
+    background-color: plum;
+    padding: 20px 120px;
+    border-radius: 45px;
+    font-family: 'Bad Script', cursive;
+    box-shadow: 5px 5px 5px #b179b5;
+}
+
+.blocosobre p{
+    width: 640px;
+    background-color: plum;
+}
+
+.blocosobre h1{
+    font-size: 90px;
+    font-family: 'Playball', cursive;
+   
+}
+
+#habilidade{
+    background-color: plum;
+    margin: 45px 45px;
+    justify-content: center;
+    height: 300px;
+    border-radius: 12px;
+    font-family: 'Bad Script', cursive;
+    box-shadow: 5px 5px 5px #b179b5;
+
+}
+
+#habilidade ul{ 
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: plum;
+    
+}
+
+li{
+    display: block;
+    background-color: Thistle;
+    border-radius: 24px;
+ 
+}
+
+#habilidade h2 {
+    background-color: plum;
+    height: 20px;  
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+    
+}
+
+#tt {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    background-color: plum;
+    border-radius: 12px;
+}
+
+#habilidade img, p{
+    background-color: Thistle;
+    justify-content: center;
+    display: flex;
+}
+
+#list{
+background-color: plum;
+text-align: center; 
+padding: 70px;
+height: 80%;
+display: flex;
+align-items: center;
+border-radius: 12px;
+}
+
+#list li,img {
+    border-radius: 24px;
+    vertical-align: middle;
+}
+
+
+footer{
+    background-color:Thistle;
+    width: auto;
+    height: auto;
+}
+
+#rodape{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: Thistle;
+margin: 0 20px 20px 20px;
+font-family: 'Kalam', cursive;
+font-size: 20px;
+}
+
+#icones i, a {
+    background-color: Thistle;
+    color:DarkMagenta;
+}
+#icones{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    background-color: Thistle;
+    
+}
+
+#rodape h1{
+    width: 80px;
+    background-color: Thistle;
+}
